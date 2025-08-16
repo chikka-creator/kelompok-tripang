@@ -14,7 +14,7 @@
 
 .desktop .overlap {
   position: relative;
-  height: 232px;
+  height: 318px;
   top: -57px;
 }
 
@@ -22,8 +22,8 @@
   position: absolute;
   width: 1094px;
   height: 133px;
-  top: 84px;
-  left: 235px;
+  top: 185px;
+  left: 232px;
 }
 
 .desktop .overlap-group {
@@ -135,4 +135,16 @@
   font-size: 128px;
   letter-spacing: 0;
   line-height: normal;
+}
+/* Original CSS code should be injected here */
+
+/* Additional styles for semantic HTML refactor */
+.desktop .overlap-group {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.desktop .overlap-group li {
+  display: block;
 }
